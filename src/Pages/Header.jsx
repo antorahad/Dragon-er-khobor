@@ -8,7 +8,7 @@ const Header = () => {
                     <img src={Logo} alt="" />
                 </div>
                 <p className="font-myFont text-lg font-thin capitalize text-center my-2">Journalism with out fear or favour</p>
-                <p className="font-myFont text-lg font-medium capitalize text-center my-2">{moment().format("dddd, MMMM D YYYY")}</p>
+                <p className="font-myFont text-xl font-medium capitalize text-center my-2">{moment().format("dddd, MMMM D YYYY")}</p>
             </header>
         </div>
     );

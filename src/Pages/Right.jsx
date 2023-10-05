@@ -1,7 +1,13 @@
+import Follow from "./Follow";
+import Qzone from "./Qzone";
+import Sociallogin from "./Sociallogin";
+
 const Right = () => {
     return (
         <div>
-            <h1 className="text-6xl font-myFont">Right Nav</h1>
+            <Sociallogin></Sociallogin>
+            <Follow></Follow>
+            <Qzone></Qzone>
         </div>
     );
 };
